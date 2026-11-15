@@ -62,7 +62,7 @@ GPS受信機とAstroEQコントローラーはUSBで接続します。Raspberry 
 | AstroEQ構成 | USB VID:PID |
 |---|---|
 | Arduino Mega版 | `2341:0042` |
-| MKS GEN L V1.4版（CH340） | `1A86:7523` |
+| MKS GEN L V2.1版（CH340） | `1A86:7523` |
 
 プログラムはUSBデバイスを自動検出し、接続したAstroEQからファームウェア情報とモーターパラメーターを取得します。
 
