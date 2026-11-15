@@ -46,7 +46,7 @@ GPS受信機とAstroEQコントローラーはUSBで接続します。Raspberry 
 | 機器 | 内容 |
 |---|---|
 | Raspberry Pi | Raspberry Pi Zero Rev 1.3 |
-| OS | Raspberry Pi OS Lite（32-bit、Debian 13 Trixie系） |
+| OS | Raspberry Pi OS（32-bit） |
 | GPS | u-blox 7 USB GPSドングル |
 | 赤道儀コントローラー | AstroEQ |
 | USBハブ | OTG接続、GPS・AstroEQ接続用 |
