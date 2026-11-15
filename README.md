@@ -94,7 +94,7 @@ LEDのアノード（＋）をGPIO側、カソード（−）をGND側に接続�
 
 ### 5.1 Raspberry Pi OSのインストール
 
-Raspberry Pi Imagerを使用して、Raspberry Pi Zeroに対応した **Raspberry Pi OS Lite（32-bit、Debian 13 Trixie系）** をmicroSDカードへ書き込みます。
+Raspberry Pi Imagerを使用して、Raspberry Pi Zeroに対応した **Raspberry Pi OS （32-bit）** をmicroSDカードへ書き込みます。
 
 初期設定：
 
