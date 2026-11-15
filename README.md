@@ -174,6 +174,38 @@ timeout 10 gpspipe -w
 
 ただし、gpsdのudevルールが対応していないGPS受信機については、別途設定が必要になる場合があります。
 
+### 5.4 GUI起動からCUI起動への切り替え
+
+Raspberry Pi OS Desktop版をインストールした場合、デスクトップ環境を起動せず、CUI（コマンドライン）で運用することができます。
+
+Raspberry Pi Zeroではメモリ使用量を削減できるため、CUI起動を推奨します。
+
+**1. 起動設定画面を開く**
+
+Raspberry Piのターミナル、またはSSH接続した端末で、次のコマンドを実行します。
+
+```bash
+sudo raspi-config
+```
+
+**2. 起動方式を変更する**
+
+次の順番に選択します。
+
+1. `1 System Options`
+2. `Boot` または `Boot / Auto Login`
+3. `B1 Console`（ログイン時にパスワードが必要）
+
+設定後、`Finish` を選択します。
+
+**3. Raspberry Piを再起動する**
+
+```bash
+sudo reboot
+```
+
+再起動後はGUIデスクトップが表示されず、文字ベースのログイン画面になります。
+
 ## 6. Pythonスクリプトのインストール
 
 本コントローラーは、2つのPythonファイルで動作します。
