@@ -55,7 +55,7 @@ GPS受信機とAstroEQコントローラーはUSBで接続します。Raspberry 
 | 抵抗 | LED電流制限用、各330Ω |
 | ケース | 小型樹脂ケース |
 
-今回のソフトウェアは、**Arduino Mega版AstroEQ**と、**MKS GEN L V1.4基板（CH340 USBシリアル変換器搭載）を使用したAstroEQ**の2種類で動作確認しています。
+今回のソフトウェアは、**Arduino Mega版AstroEQ**と、**MKS GEN L V2.1基板（CH340 USBシリアル変換器搭載）を使用したAstroEQ**の2種類で動作確認しています。
 
 それぞれのUSB識別番号は以下のとおりです。
 
